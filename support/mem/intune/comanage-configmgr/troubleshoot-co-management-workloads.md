@@ -39,6 +39,21 @@ You can use the following log file on Windows 10 devices:
 
 You can find the supported workloads [here](/mem/configmgr/comanage/workloads).  
 
+### List of co-management capabilities default values
+Inventory (Co-management is enabled without any workload applied) = 1 
+Compliance policies                                               = 2 
+Resource access policies                                          = 4 
+Device Configuration                                              = 8 
+Windows Update policies                                           = 16
+Endpoint Protection 			                                        = 32
+Client apps					    	                                        = 64
+Office Click-to-run apps	                                        = 128
+SoftDist						                                              = 256
+ThirdPartyUp 				    	                                        = 512
+ConfigurationSettingExceptions	                                  = 1024
+SWCenter						                                              = 2048
+DiskEncryption					                                          = 4096
+
 ### Which workload does the resource access policies workload belong to?
 
 The [resource access policies workload](/mem/configmgr/comanage/workloads#resource-access-policies) is part of the device configuration workload.  
